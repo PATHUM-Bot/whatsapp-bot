@@ -1,13 +1,13 @@
-/* Copyright (C) 2022 Sourav KL11.
+/* Copyright (C) 2022 Lakiya KL11.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-Raganork MD - Sourav KL11
+Lakiya MD - Wa bot KL11
 */
 const {
   FancyRandom,
   getListFromCommand,
   skbuffer
-} = require("raganork-bot");
+} = require("Lakiya_MD-bot");
 const {
   Module,
   commands
@@ -54,10 +54,10 @@ Module({
         id: 'support'+myid
     }
 }]
-var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+var menu = `╭═══〘 ${👿ʟᴀᴋɪ_ᴍᴅ_ᴡᴀ_ʙᴏᴛ👿.split(";")[0]} 〙═══⊷❍
 ┃✩╭──────────────
 ┃✩│
-┃✩│ Owner : ${BOT_INFO.split(";")[1]}
+┃✩│ Owner : ${│👿ɪᴍᴀꜱʜᴀ_ᴘᴀᴛʜᴜᴍ👿│.split(";")[1]}
 ┃✩│ User : ${message.senderName}
 ┃✩│ Mode : ${MODE}
 ┃✩│ Server : ${config.HEROKU.APP_NAME}
@@ -68,7 +68,7 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩│
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃✩│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃✩│   ${BOT_INFO.split(";")[0]}
+┃✩│   ${│👿ɪᴍᴀꜱʜᴀ_ᴘᴀᴛʜᴜᴍ👿│.split(";")[0]}
 ┃✩│ 
 ┃✩╰───────────────
 ╰═════════════════⊷
@@ -108,7 +108,7 @@ var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
 ┃✩│ gif
 ┃✩╰─────────────────
 ╰══════════════════⊷❍`
-return await message.sendImageTemplate(await skbuffer(BOT_INFO.split(";")[3]),FancyRandom(menu),"All rights reserved "+BOT_INFO.split(";")[0],buttons);
+return await message.sendImageTemplate(await skbuffer(│👿ɪᴍᴀꜱʜᴀ_ᴘᴀᴛʜᴜᴍ👿│.split(";")[3]),FancyRandom(menu),"All rights reserved "+│👿ɪᴍᴀꜱʜᴀ_ᴘᴀᴛʜᴜᴍ👿│.split(";")[0],buttons);
 }))
 Module({
   pattern: 'alive',
