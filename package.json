@@ -1,14 +1,14 @@
 {
-  "name": "raganork",
+  "name": "lakiya-md",
   "version": "1.0.2",
-  "description": "Raganork whatsapp bot- Multi device version.",
+  "description": "Lakiya whatsapp bot- Multi device version.",
   "main": "./Raganork/index.js",
   "scripts": {
     "start": "supervisor -s index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/souravkl11/raganork-md.git"
+    "url": "git+https://github.com/PATHUM-Bot/raganork-md.git"
   },
   "keywords": [
     "whatsapp",
@@ -16,7 +16,7 @@
     "multi-device"
   ],
   "author": "Sourav",
-  "developer": "@souravkl11",
+  "developer": "@LAKIYAl11",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/souravkl11/raganork/issues"
@@ -30,7 +30,7 @@
     "mongodb": "^4.3.1",
     "node-webpmux": "^3.1.0",
     "async-g-i-s": "1.0.0",
-    "raganork-bot": "2.0.2",
+    "lakiya-bot": "2.0.2",
     "sequelize": "^6.13.0",
     "sqlite3": "^5.0.0",
     "supervisor": "^0.12.0"
